@@ -1,0 +1,21 @@
+div{
+   width:350px;
+   height:300px;
+   border:1px solid red;
+   transform: translate(30px,50px);
+   overflow:hidden;
+   
+}
+
+img{
+    width:350px;
+    height:300px;  
+}
+img:hover{
+    animation: scaleImg 3s linear 0s infinite normal forwards;
+}
+@keyframes scaleImg{
+    from { transform: scaleX(1) scaleY(1)}
+    to { transform: scaleX(1.5) scaleY(1.5)} 
+
+}

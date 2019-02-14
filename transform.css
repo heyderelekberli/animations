@@ -1,0 +1,20 @@
+div{
+    width:150px;
+    height:150px;
+    animation: anim 2s linear 0s 1 alternate both;
+}
+@keyframes anim{
+    0%{
+        background: red;
+        transform: translate(0px, 0px);
+        
+    }
+    50%{
+        background: navy;
+        transform: translate(300px, 300px) rotate(45deg);
+    }
+   100%{
+    background: yellow;
+    transform: translate(600px, 0px) rotate(90deg);
+   }
+}
